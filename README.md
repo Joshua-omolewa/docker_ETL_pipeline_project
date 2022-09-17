@@ -34,3 +34,7 @@ The project diagram is as below
 * Create an instance of the docker image (Docker container) by  runing this command 'docker run -v /home/dataengr/weclouddata_project2/wecloud_data_project2/input:/app/input -v /home/dataengr/weclouddata_project2/wecloud_data_project2/output:/app/output  python_app:6.0' -v is to mount by local drive to container to access the input data so my python script can acces the data
 * Run the python script using this command `docker exec -it 54f0b5a77468  python3 py_script.py`
 * Execute the python script in the container using `docker exec -it jolly_hopper python3 py_script.py` jolly_hoper is container name ( or container id can be used)
+
+## PROJECT COMMANDS 
+
+![FINAL DOCKER IMAGE](https://user-images.githubusercontent.com/91354866/190879134-e8977dd3-fcf9-4bc8-b37d-4a97084891e8.jpg)
