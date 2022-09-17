@@ -27,6 +27,8 @@ The python script is ready to use and you don't need to change it. But if you wa
 ## 4. Diagram
 The project diagram is as below
 
+![Docker_lab_Process](https://user-images.githubusercontent.com/91354866/190879226-92bbcaf7-e578-488b-ace0-1e7d2badd3e1.jpg)
+
 ## STEPS TO COMPLETE THIS PROJECT
 
 * Create a docker file name joshua_docker_file
