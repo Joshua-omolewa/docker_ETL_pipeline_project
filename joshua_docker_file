@@ -1,22 +1,34 @@
+#created by Joshua Omolewa
+
+#creating docker file required to create the docker image
 FROM ubuntu
 
+#Argument below is important to prevent prompts when installing ubuntu image
 ARG DEBIAN_FRONTEND=noninteractive
 
+# Updating repository for ubuntu image and installing python and pandas libraries
 RUN apt-get update
 RUN apt-get install -y python3
 RUN apt-get install -y python3-pandas
 
-
+#create a workfolder in the image to make sure all works are done in this folder
 WORKDIR /app
 
 #create container volume mounting to host dir so that the python script can read and write data from host
 VOLUME /app/input
 VOLUME /app/output
 
-#create environment variables for python script
+#creating preset  environment variables to be used used for the python script
 ENV INPUT_DIR='/app/input'
 ENV OUTPUT_DIR='/app/output'
 
+#copying python script from local file into image (**note: python script file must be in the same directory as docker file)
 COPY py_script.py /app/
 
-CMD python3 py_script.py
+#make sure the container keep on running
+CMD tail -f /dev/null 
+
+#CMD python3 py_script.py --ONLY use if you want the contain to  execute and stop runing
+
+# run the following command in docker exec to run the python script. python3:
+# docker exec -it <docker image id> python3 <python script file name>
