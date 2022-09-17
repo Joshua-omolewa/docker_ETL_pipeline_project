@@ -1,0 +1,22 @@
+FROM ubuntu
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update
+RUN apt-get install -y python3
+RUN apt-get install -y python3-pandas
+
+
+WORKDIR /app
+
+#create container volume mounting to host dir so that the python script can read and write data from host
+VOLUME /app/input
+VOLUME /app/output
+
+#create environment variables for python script
+ENV INPUT_DIR='/app/input'
+ENV OUTPUT_DIR='/app/output'
+
+COPY py_script.py /app/
+
+CMD python3 py_script.py
