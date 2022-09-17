@@ -26,3 +26,9 @@ The python script is ready to use and you don't need to change it. But if you wa
 
 ## 4. Diagram
 The project diagram is as below
+
+##STEPS TO COMPLETE THIS PROJECT
+
+* Create a docker file name joshua_docker_file
+* Create docker image runing this command `docker build -f joshua_docker_file . -t python_app:5.0`
+* Create an instance of the doc
