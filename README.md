@@ -29,7 +29,7 @@ The project diagram is as below
 
 ![Docker_lab_Process](https://user-images.githubusercontent.com/91354866/190879226-92bbcaf7-e578-488b-ace0-1e7d2badd3e1.jpg)
 
-## STEPS TO COMPLETE THIS PROJECT
+## STEPS USED TO COMPLETE THIS PROJECT
 
 * Create a docker file name joshua_docker_file (make sure docker file is the same directory so other commands can execute)
 * Create docker image by runing this command `docker build -f joshua_docker_file . -t python_app:6.0`  using -t to create repository name and tag as 6.0
