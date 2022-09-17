@@ -20,8 +20,9 @@ csvs = glob.glob(os.path.join(input_path , "*.csv"))
 li = []
 
 #looping through the list of matching files returned in csvs variable and reading the csv file using pandas and then appending it to the empty li list
+#csv file is separated with spaces hence we add delimm_whitespace and engine-python arguments
 for f in csvs:
-    df = pd.read_csv(f, index_col=None, header=0)
+    df = pd.read_csv(f, index_col=None, header=0, sep = "\t", engine = "python")
     li.append(df)
 
 #Concatenating the data frame in the li list ignoring pandas index
