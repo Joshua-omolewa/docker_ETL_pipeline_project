@@ -1,6 +1,6 @@
 ## Joshua Omolewa
 
-# project 
+# Wecloud project 
 Mini Project--Docker Container
 
 Data Engineering Diploma
