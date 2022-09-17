@@ -27,8 +27,10 @@ The python script is ready to use and you don't need to change it. But if you wa
 ## 4. Diagram
 The project diagram is as below
 
-##STEPS TO COMPLETE THIS PROJECT
+## STEPS TO COMPLETE THIS PROJECT
 
 * Create a docker file name joshua_docker_file
-* Create docker image runing this command `docker build -f joshua_docker_file . -t python_app:5.0`
-* Create an instance of the doc
+* Create docker image by runing this command `docker build -f joshua_docker_file . -t python_app:5.0`  using -t to create repository name and tag as 5.0
+* Create an instance of the docker image (Docker container) by  runing this command 'docker run -v /home/dataengr/weclouddata_project2/wecloud_data_project2/input:/app/input -v /home/dataengr/weclouddata_project2/wecloud_data_project2/output:/app/output  python_app:5.0' -v is to mount by local drive to container to access the input data so my python script can acces the data
+* Run the python script using this command `docker exec -it 54f0b5a77468  python3 py_script.py`
+* Execute the python script in the container using 
