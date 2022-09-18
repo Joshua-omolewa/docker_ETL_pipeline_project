@@ -34,7 +34,7 @@ The project diagram is as below
 * Create docker image by runing this command `docker build -f joshua_docker_file . -t python_app:6.0`  using -t to create repository name and tag as 6.0
 * Create an instance of the docker image (Docker container) by  runing this command `docker run -v /home/dataengr/weclouddata_project2/wecloud_data_project2/input:/app/input -v /home/dataengr/weclouddata_project2/wecloud_data_project2/output:/app/output  python_app:6.0` -v is to mount my local drive to container in order to access my local input data.This enables my python script to acces the input data csv files.
 * Verify container is runing  by excecuting command `docker ps -a`.
-* Execute the python script in the container using `docker exec -it jolly_hopper python3 py_script.py` jolly_hoper is container name ( or container id can be used)
+* Execute the python script in the container using `docker exec -it jolly_hopper python3 py_script.py` jolly_hoper is the container name ( or container id can be used)
 * Push project files  to git repo using `git push`
 
 ## PROJECT FILES
