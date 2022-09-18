@@ -26,7 +26,7 @@ Try to make container running first, and then run python script (This means when
 ## 4. Diagram
 The project diagram is as below
 
-![Docker_lab_Process](https://user-images.githubusercontent.com/91354866/190879226-92bbcaf7-e578-488b-ace0-1e7d2badd3e1.jpg)
+![Docker_lab_Process](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/Docker_lab_Process.jpg)
 
 ## STEPS USED TO COMPLETE THIS PROJECT
 * Create a python python script called py_script.py
@@ -49,4 +49,4 @@ The project diagram is as below
 
 ## PROJECT COMMANDS BEING EXECUTED ON TERMINAL
 
-![FINAL DOCKER IMAGE](https://user-images.githubusercontent.com/91354866/190879134-e8977dd3-fcf9-4bc8-b37d-4a97084891e8.jpg)
+![FINAL DOCKER IMAGE](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/FINAL%20DOCKER%20IMAGE.jpg)
