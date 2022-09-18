@@ -38,13 +38,13 @@ The project diagram is as below
 
 ## PROJECT FILES
 
-[DOCKER FILE](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/joshua_docker_file)
+* [DOCKER FILE](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/joshua_docker_file)
 
-[PYTHON SCRIPT](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/py_script.py)
+* [PYTHON SCRIPT](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/py_script.py)
 
-[INPUT DATA FOLDER](https://github.com/Joshua-omolewa/wecloud_data_project2/tree/main/input)
+* [INPUT DATA FOLDER](https://github.com/Joshua-omolewa/wecloud_data_project2/tree/main/input)
 
-[OUPTUT DATA FOLDER](https://github.com/Joshua-omolewa/wecloud_data_project2/tree/main/output)
+* [OUPTUT DATA FOLDER](https://github.com/Joshua-omolewa/wecloud_data_project2/tree/main/output)
 
 ## PROJECT COMMANDS 
 
