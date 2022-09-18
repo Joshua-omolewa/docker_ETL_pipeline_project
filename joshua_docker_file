@@ -22,7 +22,7 @@ VOLUME /app/output
 ENV INPUT_DIR='/app/input'
 ENV OUTPUT_DIR='/app/output'
 
-#copying python script from local file into image (**note: python script file must be in the same directory as docker file)
+#copying python script from local file into image workfolder (**note: python script file must be in the same directory as docker file)
 COPY py_script.py /app/
 
 #make sure the container keep on running
