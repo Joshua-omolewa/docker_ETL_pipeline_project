@@ -46,6 +46,6 @@ The project diagram is as below
 
 * [OUPTUT DATA FOLDER](https://github.com/Joshua-omolewa/wecloud_data_project2/tree/main/output)
 
-## PROJECT COMMANDS 
+## PROJECT COMMANDS BEING EXECUTED ON TERMINAL
 
 ![FINAL DOCKER IMAGE](https://user-images.githubusercontent.com/91354866/190879134-e8977dd3-fcf9-4bc8-b37d-4a97084891e8.jpg)
