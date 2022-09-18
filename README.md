@@ -13,11 +13,10 @@ Download input csv files, combine csv files using a containerized python script 
 ## 3. Specification Detail
 There are 2 folders (input and output) and 1 python script. There are 2 csv files (t1 and t2) in the input folder.
 Step required:
-Use the python script to read the data from input folder.
-Write the result data into output folder.
-The python script is in the container.
-The input and output folder is in the host
-Ensure container running first, and then run python script (This means when you use docker run to start up the container, the python script will not run. The python script only runs when you give container an order with command docker exec)
+- Use the python script to read the data from input folder.
+- Write the result data into output folder.
+- The python script is in the container.The input and output folder is in the host. 
+- Ensure container is running  first, and then run python script (This means when you use docker run to start up the container, the python script will not run. The python script only runs when you give container an order with command docker exec)
 
 
 ## 4. Diagram
