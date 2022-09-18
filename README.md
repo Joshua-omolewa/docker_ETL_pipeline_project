@@ -37,6 +37,16 @@ The project diagram is as below
 * Execute the python script in the container using `docker exec -it jolly_hopper python3 py_script.py` jolly_hoper is container name ( or container id can be used)
 * Push project to git repo uisng `git push`
 
+## PROJECT FILES
+
+[DOCKER FILES](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/joshua_docker_file)
+
+[PYTHON SCRIPT](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/py_script.py)
+
+[INPUT DATA FOLDER](https://github.com/Joshua-omolewa/wecloud_data_project2/tree/main/input)
+
+[OUPTUT DATA FOLDER](https://github.com/Joshua-omolewa/wecloud_data_project2/tree/main/output)
+
 ## PROJECT COMMANDS 
 
 ![FINAL DOCKER IMAGE](https://user-images.githubusercontent.com/91354866/190879134-e8977dd3-fcf9-4bc8-b37d-4a97084891e8.jpg)
