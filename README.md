@@ -10,7 +10,7 @@ Data Engineering Diploma
 To create a docker container that contains a python script to join two csv files into a single file
 
 ## 2. Business Requirements
-Please download input csv files, combine csv files using a contenirized python script and upload your dockerfile and final csv file to the repository you created in the Github.
+Download input csv files, combine csv files using a contenirized python script and upload your dockerfile and final csv file to the repository you created in the Github.
 
 
 ## 3. Specification Detail
