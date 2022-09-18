@@ -30,7 +30,7 @@ for f in csvs:
 df_concat = pd.concat(li,axis=0, ignore_index=True)
 
 #otuputing the concatenating data as a csv file with a specific file name
-df_concat.to_csv(output_path+"/"+filename, index= False)
+df_concat.to_csv(output_path+"/"+filename, index= False, header=False)
 
 #message to print if successful
 print("File is created sucessfully!")
