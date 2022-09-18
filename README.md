@@ -1,9 +1,6 @@
 ## Joshua Omolewa
 
-# Wecloud project 
-Mini Project--Docker Container
-
-Data Engineering Diploma
+# Project--Docker Container with python script used to combine two csv data files
 
 
 ## 1. Business Scenario
