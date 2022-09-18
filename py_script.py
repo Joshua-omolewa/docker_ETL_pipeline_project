@@ -3,7 +3,8 @@ import pandas as pd
 import glob
 import os
 
-#Assessing  the  local environment variable created in the docker file as paths  
+#Assessing  the  local environment variable created in the docker container and store them as paths 
+#os.environ method return the vlaue of the environment variable created in the container
 input_path = os.environ['INPUT_DIR']
 output_path = os.environ['OUTPUT_DIR']
 
