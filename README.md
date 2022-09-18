@@ -17,7 +17,7 @@ Use the python script to read the data from input folder.
 Write the result data into output folder.
 The python script is in the container.
 The input and output folder is in the host
-Try to make container running first, and then run python script (This means when you use docker run to start up the container, the python script will not run. The python script only runs when you give container an order with command docker exec)
+Ensure container running first, and then run python script (This means when you use docker run to start up the container, the python script will not run. The python script only runs when you give container an order with command docker exec)
 
 
 ## 4. Diagram
