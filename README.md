@@ -7,7 +7,7 @@
 To create a docker container that contains a python script that  joins two csv files into a single file  and ensures the output file is still available even if the container is shutdown.
 
 ## 2. Business Requirements
-Download input csv files, combine csv files using a containerized python script and upload your dockerfile and final csv file to the repository you created on Github.
+Download input csv files, combine csv files using a containerized python script and upload your dockerfile and final csv file to Github repository.
 
 
 ## 3. Specification Detail
