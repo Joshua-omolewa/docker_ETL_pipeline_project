@@ -1,9 +1,7 @@
 #created by Joshua Omolewa
 
 #Importing libraries
-import pandas as pd
-import glob
-import os
+import pandas as pd , glob,os
 
 #Assessing  the  local environment variable created in the docker container and store them as paths 
 #os.environ method return the vlaue of the environment variable created in the container
