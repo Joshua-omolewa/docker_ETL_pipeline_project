@@ -44,7 +44,7 @@ df_concat = pd.concat(li,axis=0, ignore_index=True)
 
 
 """
-ouputing the concatenating data as a csv file with a specific file name, index =false is to  ignore pandas default index when outputting the file 
+ouputing the concatenated data as a csv file with a specific file name, index =false is to  ignore pandas default index when outputting the file 
 header=False is to remove pandas default headers
 """
 df_concat.to_csv(output_path+"/"+filename, index= False, header=False)
