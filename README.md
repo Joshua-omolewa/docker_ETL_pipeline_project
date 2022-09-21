@@ -1,6 +1,6 @@
 ## Joshua Omolewa
 
-# Project--Docker Container with python script used to combine  csv data files
+# Project--Building a Docker Container with python script used to combine  csv data files
 
 
 ## 1. Business Scenario
