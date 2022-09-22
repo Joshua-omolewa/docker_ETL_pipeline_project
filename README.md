@@ -45,3 +45,13 @@ The project diagram is as below
 ## PROJECT COMMANDS BEING EXECUTED ON TERMINAL
 
 ![FINAL DOCKER IMAGE](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/FINAL%20DOCKER%20IMAGE.jpg)
+
+# Follow Me On
+  
+* LinkedIn: [@omolewajoshua](https://www.linkedin.com/in/joshuaomolewa/)  
+* Github: [@joshua-omolewa](https://github.com/Joshua-omolewa)
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
