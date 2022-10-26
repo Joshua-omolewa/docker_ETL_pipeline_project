@@ -3,14 +3,14 @@
 ## Author: 👤 **Joshua Omolewa**
 
 ## 1. Business Scenario
-To create a docker container that contains a python script that  joins two csv files into a single file  and ensures the output file is still available even if the container is shutdown.
+Data engineer is required to build a docker container that contains a python script that  joins two or more csv files into a single file  and ensures the output file is still available even if the container is shutdown.
 
 ## 2. Business Requirements
 Download input csv files, combine csv files using a containerized python script and upload the dockerfile and final csv file to Github repository.
 
 
 ## 3. Specification Detail
-There are 2 folders (input and output) and 1 python script. There are 2 csv files (t1 and t2) in the input folder.
+There are 2 folders (input and output). There are 2 csv files (t1 and t2) in the input folder.
 Step required:
 - Use the python script to read the data from input folder.
 - Write the result data into output folder.
