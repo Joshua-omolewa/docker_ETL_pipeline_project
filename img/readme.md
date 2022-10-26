@@ -1,1 +1,1 @@
-#This directry contain images of project
+# This directry contain images of project
