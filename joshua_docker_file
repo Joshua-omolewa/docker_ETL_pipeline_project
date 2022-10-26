@@ -28,7 +28,7 @@ COPY py_script.py /app/
 #make sure the container keep on running
 CMD tail -f /dev/null 
 
-#CMD python3 py_script.py --ONLY use if you want the contain to  execute and stop runing
+#CMD python3 py_script.py --ONLY use if you want the container to  execute and stop runing
 
-# run the following command in docker exec to run the python script. python3:
+# run the following  command below in linux terminal to run the python script using python3:
 # docker exec -it <docker image id> python3 <python script file name>
