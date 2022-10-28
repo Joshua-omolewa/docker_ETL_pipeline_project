@@ -24,7 +24,7 @@ Step required:
 ## 5. Project Workflow
 The project diagram is as below
 
-<img src="https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/Docker_lab_Process.jpg"  width="50%" height="50%">
+<img src="https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/Docker_lab_Process.jpg"  width="70%" height="50%">
 
 
 ## STEPS USED TO COMPLETE THIS PROJECT
