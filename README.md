@@ -19,10 +19,12 @@ Step required:
 
 
 ## 4. Diagram
-<img src="https://github.com/Joshua-omolewa/Containerized_python_docker_project/blob/main/img/project_architecture.jpg"  width="100%" height="100%">
+<img src="https://github.com/Joshua-omolewa/Containerized_python_docker_project/blob/main/img/project_architecture.jpg"  width="70%" height="70%">
 
 ## 5. Project Workflow
 The project diagram is as below
+
+<img src="https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/Docker_lab_Process.jpg"  width="50%" height="50%">
 
 ![Docker_lab_Process](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/Docker_lab_Process.jpg)
 
