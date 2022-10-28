@@ -18,7 +18,7 @@ Step required:
 - Ensure container is running  first, and then run python script (This means when you use docker run to start up the container, the python script will not run. The python script only runs when you give container an order with command docker exec)
 
 
-## 4. Diagram
+## 4. Project Architecture
 <img src="https://github.com/Joshua-omolewa/Containerized_python_docker_project/blob/main/img/project_architecture.jpg"  width="70%" height="70%">
 
 ## 5. Project Workflow
@@ -26,7 +26,6 @@ The project diagram is as below
 
 <img src="https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/Docker_lab_Process.jpg"  width="50%" height="50%">
 
-![Docker_lab_Process](https://github.com/Joshua-omolewa/wecloud_data_project2/blob/main/img/Docker_lab_Process.jpg)
 
 ## STEPS USED TO COMPLETE THIS PROJECT
 * Created a python python script called py_script.py
