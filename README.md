@@ -1,4 +1,4 @@
-# Project--Building a Docker Container with python script used to combine  csv data files
+# Project--Building a Docker Container with python script used to combine  csv data files in a remote Virutal Machine (VM) server
 
 ## Author: 👤 **Joshua Omolewa**
 
