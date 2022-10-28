@@ -28,10 +28,10 @@ The project diagram is as below
 
 
 ## STEPS USED TO COMPLETE THIS PROJECT
-* Created a python python script called py_script.py
-* Created a docker file name "joshua_docker_file" (make sure docker file is the same directory so other commands can execute)
+* Created a python python script called `py_script.py` in Virtual Machine
+* Created a docker file name "joshua_docker_file" (make sure docker file is the same directory so other commands can execute) that copy the python script into the docker image when created 
 * Created a docker image by runing this command `docker build -f joshua_docker_file . -t python_app:6.0`  using -t to create repository name and tag as 6.0
-* Created an instance of the docker image (Docker container) by  runing this command `docker run -v /home/dataengr/weclouddata_project2/wecloud_data_project2/input:/app/input -v /home/dataengr/weclouddata_project2/wecloud_data_project2/output:/app/output  python_app:6.0` -v is to mount my local drive to container in order to access my local input data.This enables my python script to acces the input data csv files.
+* Created an instance of the docker image (Docker container) by  runing this command `docker run -v /home/dataengr/weclouddata_project2/wecloud_data_project2/input:/app/input -v /home/dataengr/weclouddata_project2/wecloud_data_project2/output:/app/output  python_app:6.0` -v is to mount my local drive to container in order to access my local input data folder and output folder.This enables my python script to access the input data csv files.
 * Verify container is runing  by excecuting command `docker ps -a`.
 * Execute the python script in the container using `docker exec -it jolly_hopper python3 py_script.py` jolly_hoper is the container name ( or container id can be used)
 * Push project files  to git repo using `git push`
