@@ -1,4 +1,4 @@
-# Project--Building a Docker Container with python script used to combine  csv data files in a remote Virutal Machine (VM) server
+# Project--Built an ETL pipeline in a  Docker Container that extract data from a local input folder  using a  python script  and then transform the data by combining all data files in a remote Virutal Machine (VM) server and then loading the data into a local ouput folder
 
 ## Author: 👤 **Joshua Omolewa**
 
